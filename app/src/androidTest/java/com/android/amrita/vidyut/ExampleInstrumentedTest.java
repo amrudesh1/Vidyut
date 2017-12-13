@@ -1,4 +1,4 @@
-package com.example.amrudesh.vidyut;
+package com.android.amrita.vidyut;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
