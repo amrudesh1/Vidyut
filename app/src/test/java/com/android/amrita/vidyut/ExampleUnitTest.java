@@ -1,4 +1,4 @@
-package com.example.amrudesh.vidyut;
+package com.android.amrita.vidyut;
 
 import org.junit.Test;
 

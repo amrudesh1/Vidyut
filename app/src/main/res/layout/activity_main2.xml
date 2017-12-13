@@ -17,9 +17,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="150dp"
-            android:fontFamily="@font/architects_daughter"
+            android:fontFamily="@font/bitsumis"
             android:text="Vidyut"
             android:textColor="@color/lightorange"
+            android:letterSpacing="0.2"
             android:textSize="60sp"
             android:textStyle="bold" />
         <TextView
