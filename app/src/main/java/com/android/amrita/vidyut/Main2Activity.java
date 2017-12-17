@@ -27,7 +27,8 @@ public class Main2Activity extends AppCompatActivity {
         l2.setAnimation(downtoup);
         btnsub.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View v)
+            {
                 Intent i = new Intent(Main2Activity.this, MainActivity.class);
                 startActivity(i);
                 overridePendingTransition(R.anim.fade_in, R.anim.fade_out);

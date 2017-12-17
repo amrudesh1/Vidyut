@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.android.amrita.vidyut">
-
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -20,10 +20,30 @@
             </intent-filter>
         </activity>
         <activity android:name="com.android.amrita.vidyut.MainActivity"></activity>
+        <activity android:name="com.android.amrita.vidyut.Login.SignupActivity"></activity>
+        <activity android:name="com.android.amrita.vidyut.Login.Login_Activity"></activity>
 
+        <service android:name="com.android.amrita.vidyut.Firebase.MyFirebaseInstanceIDService">
+        <intent-filter>
+            <action android:name="com.google.firebase.INSTANCE_ID_EVENT"></action>
+        </intent-filter>
+        </service>
+        <service
+            android:name="com.android.amrita.vidyut.Firebase.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+        <meta-data
+        android:name="com.google.firebase.messaging.default_notification_icon"
+        android:resource="@drawable/ic_vlogo" />
+        <meta-data
+        android:name="com.google.firebase.messaging.default_notification_color"
+        android:resource="@color/colorAccent" />
+
     </application>
 
 </manifest>
