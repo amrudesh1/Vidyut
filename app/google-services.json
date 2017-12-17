@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "807153248717",
+    "firebase_url": "https://vidyut-fd8a7.firebaseio.com",
+    "project_id": "vidyut-fd8a7",
+    "storage_bucket": "vidyut-fd8a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:807153248717:android:2fb996b94749b800",
+        "android_client_info": {
+          "package_name": "com.android.amrita.vidyut"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "807153248717-ciida542je6683i5hpm8lv8tf6uraa18.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.amrita.vidyut",
+            "certificate_hash": "07cf74017d002316d82df6cd843ae7d74597c38b"
+          }
+        },
+        {
+          "client_id": "807153248717-s7idubv9tga0c3phn1lfouhh82qqkt2e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAi2M6pORhadx7gPgBdu9kAYHPSGVfiBUs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "807153248717-s7idubv9tga0c3phn1lfouhh82qqkt2e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

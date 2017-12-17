@@ -7,4 +7,5 @@
     <string name="home">Home</string>
     <string name="login">Login</string>
     <string name="about_us">About Us</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
 </resources>
