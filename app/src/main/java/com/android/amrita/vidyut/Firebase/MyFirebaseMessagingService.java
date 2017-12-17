@@ -1,4 +1,4 @@
-package com.android.amrita.vidyut;
+package com.android.amrita.vidyut.Firebase;
 
 /**
  * Created by Amrudesh on 16-12-2017.
@@ -13,7 +13,8 @@ import android.net.Uri;
 import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 
-import com.firebase.jobdispatcher.Constraint;
+import com.android.amrita.vidyut.Main2Activity;
+import com.android.amrita.vidyut.R;
 import com.firebase.jobdispatcher.FirebaseJobDispatcher;
 import com.firebase.jobdispatcher.GooglePlayDriver;
 import com.firebase.jobdispatcher.Job;

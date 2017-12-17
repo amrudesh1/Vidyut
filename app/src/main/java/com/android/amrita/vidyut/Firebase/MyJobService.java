@@ -1,4 +1,4 @@
-package com.android.amrita.vidyut;
+package com.android.amrita.vidyut.Firebase;
 
 /**
  * Created by Amrudesh on 16-12-2017.
