@@ -68,20 +68,20 @@ public class Login_Activity extends AppCompatActivity {
         }
 
         _loginButton.setEnabled(false);
-
+/*
         final ProgressDialog progressDialog = new ProgressDialog(Login_Activity.this,
                 R.style.AppTheme_NoActionBar);
         progressDialog.setIndeterminate(true);
         progressDialog.setMessage("Authenticating...");
-        progressDialog.show();
+        progressDialog.show();*/
 
         email = _emailText.getText().toString();
         password = _passwordText.getText().toString();
-
-
+        method="login";
+        BackgroundWorker backgroundWorker =new BackgroundWorker(this);
+        backgroundWorker.execute(method,email,password);
         // TODO: Implement your own authentication logic here.
-
-        new android.os.Handler().postDelayed(
+        /*new android.os.Handler().postDelayed(
                 new Runnable() {
                     public void run() {
                         // On complete call either onLoginSuccess or onLoginFailed
@@ -89,7 +89,8 @@ public class Login_Activity extends AppCompatActivity {
                         // onLoginFailed();
                         progressDialog.dismiss();
                     }
-                }, 3000);
+                }, 3000);*/
+
     }
 
 

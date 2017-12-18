@@ -15,11 +15,19 @@
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name="com.android.amrita.vidyut.MainActivity"></activity>
+            </activity>
+            <activity
+                android:name="com.android.amrita.vidyut.MainActivity"
+                android:parentActivityName="com.android.amrita.vidyut.MainActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.android.amrita.vidyut.MainActivity">
+
+            </meta-data>
+            </activity>
         <activity android:name="com.android.amrita.vidyut.Login.SignupActivity"></activity>
         <activity android:name="com.android.amrita.vidyut.Login.Login_Activity"></activity>
 
